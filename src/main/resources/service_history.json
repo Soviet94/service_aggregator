@@ -1,0 +1,86 @@
+[
+  {
+    "vin": "1HGCM82633A004352",
+    "service_date": "2024-09-12",
+    "mileage": 45000,
+    "service_type": "Oil Change",
+    "service_cost": 89.99
+  },
+  {
+    "vin": "1HGCM82633A004352",
+    "service_date": "2024-10-02",
+    "mileage": 47200,
+    "service_type": "Brake Pads",
+    "service_cost": 250.00
+  },
+  {
+    "vin": "1HGCM82633A004352",
+    "service_date": "2024-11-12",
+    "mileage": 45000,
+    "service_type": "Tire Rotation",
+    "service_cost": 89.99
+  },
+  {
+    "vin": "2FMDK4KC3BBB67984",
+    "service_date": "2024-10-05",
+    "mileage": 52000,
+    "service_type": "Tire Rotation",
+    "service_cost": 49.99
+  },
+  {
+    "vin": "3FA6P0H7XJR182723",
+    "service_date": "2024-11-15",
+    "mileage": 60000,
+    "service_type": "Brake Replacement",
+    "service_cost": 299.99
+  },
+  {
+    "vin": "1J4GS4873YH107892",
+    "service_date": "2024-08-22",
+    "mileage": 43000,
+    "service_type": "Battery Replacement",
+    "service_cost": 120.00
+  },
+  {
+    "vin": "4S3BNAC69A3206744",
+    "service_date": "2024-09-28",
+    "mileage": 15000,
+    "service_type": "Air Filter Replacement",
+    "service_cost": 29.99
+  },
+  {
+    "vin": "5NMS3CAD9MH033125",
+    "service_date": "2024-07-11",
+    "mileage": 75000,
+    "service_type": "Coolant Flush",
+    "service_cost": 129.99
+  },
+  {
+    "vin": "1N4AL3AP7JC237889",
+    "service_date": "2024-06-30",
+    "mileage": 82000,
+    "service_type": "Transmission Fluid Change",
+    "service_cost": 199.99
+  },
+  {
+    "vin": "5XYKT3A65FG314789",
+    "service_date": "2024-05-10",
+    "mileage": 39000,
+    "service_type": "Timing Belt Replacement",
+    "service_cost": 650.00
+  },
+  {
+    "vin": "2G1FA1E37E9132048",
+    "service_date": "2024-04-18",
+    "mileage": 32000,
+    "service_type": "Spark Plug Replacement",
+    "service_cost": 150.00
+  },
+  {
+    "vin": "1FTEX1EP4JKE30841",
+    "service_date": "2024-03-25",
+    "mileage": 90000,
+    "service_type": "Fuel Injector Cleaning",
+    "service_cost": 250.00
+  }
+]
