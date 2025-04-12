@@ -20,7 +20,7 @@ public class ServiceHistoryController {
     private final ServiceHistoryService serviceHistoryService;
 
     @Autowired
-    ServiceHistoryController(ServiceHistoryService serviceHistoryService) {
+    public ServiceHistoryController(ServiceHistoryService serviceHistoryService) {
         this.serviceHistoryService = serviceHistoryService;
     }
 
