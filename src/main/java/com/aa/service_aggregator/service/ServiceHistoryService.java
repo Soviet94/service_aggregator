@@ -3,7 +3,6 @@ package com.aa.service_aggregator.service;
 import com.aa.service_aggregator.dto.ServiceRecordDTO;
 import com.aa.service_aggregator.model.ServiceRecord;
 import com.aa.service_aggregator.repository.ServiceRecordRepository;
-import jakarta.persistence.Column;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.slf4j.Logger;
@@ -21,7 +20,7 @@ public class ServiceHistoryService {
     private final ServiceRecordRepository serviceRecordRepository;
 
     @Autowired
-    ServiceHistoryService(ServiceRecordRepository serviceRecordRepository) {
+    public ServiceHistoryService(ServiceRecordRepository serviceRecordRepository) {
         this.serviceRecordRepository = serviceRecordRepository;
     }
 
@@ -33,6 +32,7 @@ public class ServiceHistoryService {
         for (ServiceRecordDTO record : records) {
             if (!valid(record)){
                 failed.add(record);
+                logger.warn("Failed record {}",record);
             } else {
                 ServiceRecord tableRecord = new ServiceRecord(
                         record.vin(),

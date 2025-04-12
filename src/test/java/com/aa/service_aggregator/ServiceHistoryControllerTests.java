@@ -6,6 +6,7 @@ import com.aa.service_aggregator.model.ServiceRecord;
 import com.aa.service_aggregator.service.ServiceHistoryService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.ResponseEntity;
 
 import java.util.Collections;
@@ -16,7 +17,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-class ServiceHistoryControllerTest {
+@SpringBootTest
+class ServiceHistoryControllerTests {
 
     private ServiceHistoryService serviceHistoryService;
     private ServiceHistoryController controller;
