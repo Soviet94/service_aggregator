@@ -51,3 +51,23 @@ returned objects follow this structure:
   "service_type": "Oil Change",
   "service_cost": 49.99
 }
+```
+
+## Building the Docker Image
+
+To build the Docker image for the `service_aggregator` app, run the following command:
+
+```bash
+docker build -t service_aggregator .
+```
+
+You can follow up with instructions on how to run the container, like this:
+
+## Running the Docker Container
+Once the image is built, run the container with:
+
+```bash
+docker run -p 8106:8106 service_aggregator
+```
+This will start the application and expose it on port 8106. You can then access the app at http://localhost:8106.
+

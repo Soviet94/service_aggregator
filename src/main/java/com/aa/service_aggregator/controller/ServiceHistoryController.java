@@ -52,7 +52,7 @@ public class ServiceHistoryController {
             return ResponseEntity.notFound().build();
         }
 
-        return ResponseEntity.ok(serviceHistoryService.getRecordsByVin(vin));
+        return ResponseEntity.ok(records);
     }
 
 }
